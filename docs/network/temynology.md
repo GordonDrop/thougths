@@ -49,3 +49,7 @@
 Объединяет все описаные топологии. Представляет древовидную структуру
 
 [Источник](https://habr.com/ru/post/307252)
+
+TODO:
+hop-by-hop, not end-to-end
+bandwidth
