@@ -9,6 +9,7 @@
 
 - Security
   - [Crypto termynology](/security/crypto_termynology.md)
+  - [Common web atacks](web-attacks.md)
 
 - Javascript
   - [Async JS, Event loop and Tasks](/javascript/event-loop.md)
