@@ -135,6 +135,12 @@ BODY - опциональное тело ответа, содержит отпр
 ### Идемпонентность 
 Свойство операции давать один и тот же результат на одни и те же входные данные.
 
+### Количество одновременных соедниней браузера
+
+Зависит от браузера. Также имеется макс количество и макс количеств одновр соеднений на хост
+
+https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+
 **Источники**
 - [https://m.habr.com/ru/post/307714/](https://m.habr.com/ru/post/307714/)
 - [https://developer.mozilla.org/ru/docs/Web/HTTP/Methods](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods)
