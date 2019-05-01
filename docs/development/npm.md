@@ -10,8 +10,8 @@
 
 - < Less than
 - <= Less than or equal to
-- > Greater than
-- >= Greater than or equal to
+- \> Greater than
+- \>= Greater than or equal to
 - = Equal. If specified or not. Optional.
 
 Комбинация компораторов через пробел, как **пересечение**: >=1.2.7 <1.3.0.
@@ -41,10 +41,7 @@ Ex:
   
 ## Package locks
 
-npm не всегда может ставить каждый раз пакеты одинаково. Причины:
-
-- раз
-- два
+npm не всегда может ставить каждый раз пакеты одинаково.
 
 Запускаем npm install и генерируется package-lock файл. Все будущие установки базируются на этом файле.
 
