@@ -22,3 +22,8 @@
   - [Webpack](/development/webpack.md)
   - [Npm](/development/npm.md)
   - [Deploy](/development/deploy.md)
+  
+- Web other
+  - [CSS](/web/css.md)
+  - [HTML](/web/html-other.md)
+  - [Perfomance](/web/perfomance.md)
