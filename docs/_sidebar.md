@@ -23,6 +23,11 @@
   - [Npm](/development/npm.md)
   - [Deploy](/development/deploy.md)
   
+- Software quality
+  - [General](/software-quality/software_quallity.md)
+  - [Testing](/software-quality/testing.md)  
+  - [e2e](/software-quality/e2e.md)  
+  
 - Web other
   - [CSS](/web/css.md)
   - [HTML](/web/html-other.md)
