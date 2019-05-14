@@ -3,6 +3,7 @@
 [The Cost Of JavaScript In 2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)
 [Perfomance Checklist](https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/)
 [Системный подход к скорости](https://habr.com/ru/company/jugru/blog/426571)
+[Метрики](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics#first_meaningful_paint_and_hero_element_timing)
 
 ## Подходы к оптимизации
 
@@ -54,3 +55,16 @@ layout, painting and compositing
 - Манипуляции с атрибутом «class»;
 - Манипуляции с окном браузера — изменения размеров, прокрутка;
 - Активация псевдо-классов (например, :hover).
+
+## async, defer
+
+defer - указывает браузере загрузить скрипт и запустить после загрузки страницы.
+
+- не блокирует страницу
+- выполняется, когда готов DOM, но до DOMContentLoaded
+- скрипты выполняются в порядке объявления
+
+async - скрипт выполняется полностью независимо от загрузки страницы, не блокируя ее. Из async скриптов, какой первым загрузиться тот и выполниться.
+
+[JavaScript Loading Priorities in Chrome
+](https://addyosmani.com/blog/script-priorities/)

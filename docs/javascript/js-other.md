@@ -62,3 +62,27 @@ Disadvantages:
 ### higher-order function
 
 higher-order function is any function that takes one or more functions as arguments, which it uses to operate on some data, and/or returns a function as a result. Abstraction for repeated operations.
+
+## type conversions
+
+ToString - String conversion is mostly obvious. A false becomes "false", null becomes "null", etc.
+           
+ToNumber - мат операции:
+
+ Ex: "6" / "2" // 3
+ 
+ undefined -> NaN
+ null -> 0
+ true and false -> 1 and 0
+ string - Number | NaN
+ 
+ ToBoolean
+- falsy: 0, null, undefined, NaN
+- true: other
+
+## type comparision
+
+When comparing values of different types, JavaScript converts the values to numbers:
+
+'2' > 1 // 2 > 1 true
+'01' == 1 // 1 == 1 true 
