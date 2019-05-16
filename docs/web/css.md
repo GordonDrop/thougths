@@ -95,8 +95,9 @@ Flex container - эл-т c display: flex. Flex items inside
 **flex-flow shorthand**  - Пример flex-flow: row wrap;
 
 **flex: flex-grow flex-shrink flex-basis**:
-- flex-grow - число - пропорция
-- flex-basis - мин ширина
+- flex-grow - определяет, какую часть свободного пространства может занять контейнер, в соотношении с другими контейнерами.
+- flex-shrink -  свойство CSS, которое определяет фактор сжатия  flex-элемента. Flex-элементы будут заполнять контейнер в зависимости от значения flex-shrink, когда стандартная ширина flex-элементов шире, чем flex-контейнер.
+- flex-basis - CSS свойство flex-basis задает базовый размер флекс элемента по основной оси. Это свойство определяет размер контент-бокса, если не задано иначе через box-sizing.
 
 Выравнивание.
 
@@ -107,6 +108,8 @@ Flex container - эл-т c display: flex. Flex items inside
 **order** - Число со знаком. эл-ты с большим весом появяться последними.
 
 [Flex cheatsheet](http://yoksel.github.io/flex-cheatsheet)
+[Flex or Grid](https://habr.com/ru/company/ruvds/blog/448916/)
+[Flexbox  patterns](https://tobiasahlin.com/blog/common-flexbox-patterns/)
 
 ## Grids
 
