@@ -17,6 +17,7 @@
   - [Async functions](/javascript/async.md)
   - [Prototypes](/javascript/prototypes.md)
   - [Misc, code examples](/javascript/misc.md)
+  - [Other](/javascript/js-other.md)
   
 - Development
   - [Webpack](/development/webpack.md)
